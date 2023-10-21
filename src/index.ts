@@ -1,11 +1,12 @@
 import express from "express";
 import router from './routes';
+import dotenv from 'dotenv'
 
+dotenv.config()
 const server = express();
-const port = 3001;
 
 server.use('/', router);
 
-server.listen( port, () => {
-    console.log( `server started at http://localhost:${ port }` );
+server.listen( process.env.PORT, () => {
+    console.log( `server started at ${ process.env.BACK_HOST }${ process.env.PORT }` );
 } );
