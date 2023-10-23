@@ -4,8 +4,7 @@
   "description": "Real state publications scrapper - Backend",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "dev": "nodemon - exec ts-node src/index.ts"
+    "start": "nodemon - exec ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/matta-ale/tureferente-server#readme",
   "dependencies": {
+    "@types/cheerio": "^0.22.33",
+    "crawlee": "^3.5.8",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "nodemon": "^3.0.1",

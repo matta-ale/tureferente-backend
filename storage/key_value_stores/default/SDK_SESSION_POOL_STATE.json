@@ -1,0 +1,51 @@
+{
+  "usableSessionsCount": 1,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_Tht0KBCrg5",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.3",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "JSESSIONID",
+            "value": "F6374882A0B2BF62FC105837DC2CCABB",
+            "domain": "www.zonaprop.com.ar",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-10-23T02:14:48.006Z",
+            "lastAccessed": "2023-10-23T02:14:49.361Z"
+          },
+          {
+            "key": "__cf_bm",
+            "value": "I0kj6e7UX6iu9aHEY7m6GvYYyU.agllB5yN4t2i8R1A-1698027287-0-AVwMbVKaxwjHrps+MpVamrL6qwMsolgJ5BXfrUpulM7qDqk+4JmdFYRXTU3bgSX82mJ6fSjByV0Oh2NO59c2qsTBjbMTXnR3uqRUL0CXM7Il",
+            "expires": "2023-10-23T02:44:47.000Z",
+            "domain": "zonaprop.com.ar",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2023-10-23T02:14:48.006Z",
+            "lastAccessed": "2023-10-23T02:14:48.010Z",
+            "sameSite": "none"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-10-23T03:04:47.265Z",
+      "createdAt": "2023-10-23T02:14:47.265Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

@@ -11,14 +11,14 @@ export const urlMaker = (data: any) => {
     neighborhood: string | undefined;
   } = data;
 
-  let scrapperURL:string = baseURL
+  let SCRAPPER_URL:string = baseURL
   let auxArray:string[]=[]
 
   if(propertyType) auxArray.push(propertyType) 
   if(contractType) auxArray.push(contractType) 
   if(neighborhood) auxArray.push(neighborhood) 
 
-  scrapperURL += auxArray.join('-') + '.html' 
+  SCRAPPER_URL += auxArray.join('-') + '.html' 
 
-  return scrapperURL
+  return SCRAPPER_URL
 };
