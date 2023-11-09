@@ -1,6 +1,7 @@
 export interface PropertyListing {
     titulo: string;
     location: string;
+    moneda: string,
     precio: string;
     link: string|undefined;
     mTotales: string;

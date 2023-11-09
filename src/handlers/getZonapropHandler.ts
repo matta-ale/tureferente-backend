@@ -1,10 +1,15 @@
 import { DatasetContent, Dictionary } from 'crawlee';
-import scrapper from '../scrapper/zonaprop/main';
+import {scrapper} from '../scrapper/zonaprop/main';
+import getMetrics  from './getMetrics';
+import DataFrame from 'dataframe-js';
 
-const getZonapropHandler = async (SCRAPPER_URL:string):Promise<DatasetContent<Dictionary>> => {
+const getZonapropHandler = async (SCRAPPER_URL:string, data:Object):Promise<DataFrame> => {
     
-    const dataset = await scrapper(SCRAPPER_URL)
-    return dataset;
+    const dataset:DatasetContent<Dictionary> = await scrapper(SCRAPPER_URL)
+    
+    const metrics:any = await getMetrics(dataset,data)
+    
+    return metrics;
 }
 
 export default getZonapropHandler
